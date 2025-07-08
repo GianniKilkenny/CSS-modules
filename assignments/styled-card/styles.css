@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: rgba(183, 20, 20, 0.56);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,14 +10,14 @@ body {
 .card {
   width: 250px;
   padding: 20px;
-  background-color: white;
+  background-color: chartreuse;
   border-radius: 10px;
-  border: 2px soldi #ddd;
+  border: 1px solid #ddd;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   box-sizing: border-box;
 }
 
 .card h2 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
