@@ -1,0 +1,33 @@
+.emily {
+  width: 60%;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  padding-bottom: 40px;
+  background-color: palevioletred;
+  color: rgb(112, 0, 90);
+}
+.lastname {
+  color: aquamarine;
+}
+.quote::before {
+  content: '"';
+  font-size: 20px;
+  color: black;
+}
+
+.quote::after {
+  content: '"';
+  font-size: 20px;
+  color: black;
+}
+
+.quote {
+  font-weight: bold;
+}
+
+.emily:hover {
+  box-shadow: 5px 5px 15px black;
+}
