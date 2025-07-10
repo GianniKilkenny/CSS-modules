@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+}
+
+.blog-post {
+  background-color: lightseagreen;
+  width: 50%;
+  padding: 2vw;
+  border: 1px solid black;
+  border-radius: 1vw;
+}
+.blog-post:hover {
+  box-shadow: 2px 4px 15px black;
+}
+
+.creepster-regular {
+  color: darkorange;
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bitcount-grid-double {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0;
+}
+h2 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+}
+p {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+.footer {
+  border-radius: 1vw;
+  background-color: white;
+  font-weight: 200;
+}
+.middle {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
