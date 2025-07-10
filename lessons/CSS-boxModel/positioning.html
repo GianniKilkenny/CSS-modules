@@ -24,8 +24,8 @@
 
       .absolute {
         position: absolute;
-        top: 30px;
-        left: 50px;
+        top: 50px;
+        left: 100px;
         background-color: lightpink;
       }
       .fixed {
@@ -40,6 +40,23 @@
         background-color: lightgreen;
         z-index: 100;
       }
+      .box {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+      }
+      .one {
+        background-color: red;
+        z-index: 1;
+        top: 0px;
+        left: 0px;
+      }
+      .two {
+        background-color: aquamarine;
+        z-index: 2;
+        top: 20px;
+        left: 20px;
+      }
     </style>
   </head>
   <body>
@@ -51,5 +68,7 @@
     <div class="parent">
       <div class="absolute">I am absolute</div>
     </div>
+    <div class="box one">I am box one</div>
+    <div class="box two">I am box two</div>
   </body>
 </html>
