@@ -1,0 +1,28 @@
+.sticky {
+  position: sticky;
+  width: 80%;
+  height: 35px;
+  padding: 10px;
+  background-color: aquamarine;
+  text-align: center;
+  margin: auto;
+  padding-top: 17.5px;
+  border: 1px solid black;
+  z-index: 100;
+  top: 0;
+}
+
+.parent {
+  width: 400px;
+  height: 2500px;
+  background-color: lightgrey;
+}
+.absolute {
+  position: absolute;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
