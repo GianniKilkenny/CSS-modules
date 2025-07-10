@@ -11,6 +11,7 @@
 }
 .lastname {
   color: aquamarine;
+  background-color: azure;
 }
 .quote::before {
   content: '"';
