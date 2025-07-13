@@ -1,0 +1,35 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  background-color: lightgrey;
+  padding: 1.5rem;
+}
+
+.item {
+  background-color: lightblue;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+.item:hover {
+  box-shadow: 2px 4px 8px black;
+}
+.container1 :nth-child(1)::after {
+  content: ": 45$";
+}
+.container1 :nth-child(2)::after {
+  content: ": 70$";
+}
+.container1 :nth-child(3)::after {
+  content: ": 200$";
+}
+.container1 :nth-child(4)::after {
+  content: ": 550$";
+}
