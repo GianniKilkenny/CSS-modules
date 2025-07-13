@@ -5,15 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>background images</title>
     <style>
-      .bg-image {
+      /* .bg-image {
         background-image: url(picos.jpeg);
         height: 97vh;
         background-size: cover;
         background-position: center;
+      } */
+
+      .bg-image {
+        background-image: url(picos.jpeg);
+        background-position: center center;
+        height: 97vh;
+      }
+
+      .bg-cover {
+        background-size: cover;
+      }
+
+      .bg-contain {
+        background-size: contain;
+      }
+
+      .bg-no-repeat {
+        background-repeat: no-repeat;
+      }
+
+      .bg-repeat {
+        background-repeat: repeat;
+      }
+      .bg-fixed {
+        background-attachment: fixed;
+      }
+      .gradient {
+        background: radial-gradient(circle, red, blue);
       }
     </style>
   </head>
   <body>
-    <div class="bg-image">Background image</div>
+    <div class="bg-image bg-contain bg-no-repeat gradient">
+      Background image
+    </div>
   </body>
 </html>
