@@ -1,0 +1,55 @@
+.container1 {
+  height: 100vh;
+  display: grid;
+  background-color: lightblue;
+  padding: 20px;
+  grid-template-columns: 1fr 150px;
+  grid-template-rows: 0.75fr 500px 0.5fr;
+  gap: 20px;
+  grid-template-areas: "header header" "content content" "footer footer";
+}
+.header {
+  grid-area: header;
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  position: relative;
+  grid-area: content;
+  border-radius: 10px;
+  min-height: auto;
+  overflow: scroll;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: gold;
+  font-size: 2rem;
+  border: 3px solid black;
+}
+.sidebar {
+  grid-area: sidebar;
+  background-color: aliceblue;
+  float: right;
+  width: auto;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 0 1rem 1rem;
+}
+.footer {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  grid-area: footer;
+}
+.content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
