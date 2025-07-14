@@ -5,30 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Personal Blog" content="Description of Gianni's life" />
     <title>Gianni's Beautiful Blog</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Gianni's Personal Blog</h1>
-    </header>
-    <h4>
-      <nav>
-        <a href="#aboutme">About me</a>
-        <a href="#inspiration">Inspiration</a>
-        <a href="#hobbies">Hobbies</a>
-        <a href="#goals">Goals</a>
-      </nav>
-    </h4>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <div class="container">
+      <header class="header1">
+        <h1>Gianni's Personal Blog</h1>
 
-    <header>
-      <section id="aboutme"></section>
-      <h3>About Me</h3>
+        <h4>
+          <nav>
+            <a href="#aboutme">About me</a>
+            <a href="#inspiration">Inspiration</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#goals">Goals</a>
+          </nav>
+        </h4>
+      </header>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <section id="aboutme">
+        <header>
+          <h3>About Me</h3>
+        </header>
         <article>
           <p>
             Hi my name is Gianni Kilkenny and I am 21yrs old and am from
@@ -47,10 +49,11 @@
           width="400"
         />
       </section>
-    </header>
-    <header>
-      <section id="inspiration">
-        <h3>Inspiration</h3>
+
+      <section id="inspiration" class="inspiration">
+        <header>
+          <h3>Inspiration</h3>
+        </header>
 
         <p>
           I have had many inspirational figures throughout my life<br /><br />
@@ -62,7 +65,7 @@
         </p>
 
         <img
-          src="kobe5chips.jpeg"
+          src="./images/kobe5chips.jpeg"
           alt="Kobe Bryant with championship trophy"
           width="350"
         />
@@ -77,60 +80,65 @@
           allowfullscreen
         ></iframe>
       </section>
-    </header>
-    <section id="hobbies">
-      <h3>Hobbies</h3>
-      <p>
-        I have had a couple different hobbies throughout my life and they come
-        down to two things, sports and video games. Growing up I always played
-        basketball and video games.
-      </p>
-      <p>
-        As I've gotten older I gotten into MMA and trained for a couple months
-        as well.
-      </p>
-      <p>
-        Here is a funny website I made ranking MMA Goats:
-        <a href="complete.html" target="_blank" rel="noopener noreferrer"
-          >MMA Website</a
-        >
-      </p>
-      <p>Here is also a video of me dunking.</p>
-      <video width="400" height="400" controls>
-        <source src="Dunk2.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </section>
 
-    <section id="goals">
-      <h3>Goals</h3>
-      <p>I have two goals currently.</p>
-      <ol>
-        <li>Make hella bread through engineering</li>
-        <li>Be an athletic weapon in the ring</li>
-      </ol>
-    </section>
-
-    <aside>
-      <h4>More Links</h4>
-      <ul>
-        <li>
-          <a href="https://www.usa.gov" target="_blank">About my country</a>
-        </li>
-
-        <li>
-          Email at:
-          <a href="mailto: Giannikilkenny22404@gmail.com"
-            >Giannikilkenny22404@gmail.com</a
+      <section id="hobbies" class="hobbies">
+        <header>
+          <h3>Hobbies</h3>
+        </header>
+        <p>
+          I have had a couple different hobbies throughout my life and they come
+          down to two things, sports and video games. Growing up I always played
+          basketball and video games.
+        </p>
+        <p>
+          As I've gotten older I gotten into MMA and trained for a couple months
+          as well.
+        </p>
+        <p>
+          Here is a funny website I made ranking MMA Goats:
+          <a href="complete.html" target="_blank" rel="noopener noreferrer"
+            >MMA Website</a
           >
-        </li>
+        </p>
+        <p>Here is also a video of me dunking.</p>
+        <video width="400" height="400" controls>
+          <source src="./images/Dunk2.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
 
-        <li><a href="tel: +123456789">Call Me</a></li>
-      </ul>
-    </aside>
+      <section id="goals" class="goals">
+        <header>
+          <h3>Goals</h3>
+        </header>
+        <p>I have two goals currently.</p>
+        <ol>
+          <li>Make hella bread through engineering</li>
+          <li>Be an athletic weapon in the ring</li>
+        </ol>
+      </section>
 
-    <footer>
-      <p>&copy; Gianni Kilkenny's Blog</p>
-    </footer>
+      <aside class="aside">
+        <h4>More Links</h4>
+        <ul>
+          <li>
+            <a href="https://www.usa.gov" target="_blank">About my country</a>
+          </li>
+
+          <li>
+            Email at:
+            <a href="mailto: Giannikilkenny22404@gmail.com"
+              >Giannikilkenny22404@gmail.com</a
+            >
+          </li>
+
+          <li><a href="tel: +123456789">Call Me</a></li>
+        </ul>
+      </aside>
+
+      <footer class="footer">
+        <p>&copy; Gianni Kilkenny's Blog</p>
+      </footer>
+    </div>
   </body>
 </html>
