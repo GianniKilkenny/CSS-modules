@@ -1,0 +1,38 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  /* box model */
+  background-color: lightgrey;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 8px black;
+
+  /* grid layout */
+  grid-template-columns: 1fr 0.24fr;
+  grid-template-rows: 1fr, 2fr, 2fr, 2fr, 1fr, 1fr, 1fr;
+  grid-template-areas:
+    "header header"
+    "aboutme aboutme"
+    "inspiration inspiration"
+    "hobbies hobbies"
+    "goals goals"
+    "footer footer";
+  gap: 20;
+}
+
+.header {
+  /* box model */
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgb(96, 96, 96);
+
+  /* grid */
+  grid-area: header;
+}
