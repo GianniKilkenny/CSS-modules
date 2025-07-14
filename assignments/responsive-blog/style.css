@@ -23,7 +23,7 @@
   grid-area: content;
   border-radius: 10px;
   min-height: auto;
-  overflow: scroll;
+  overflow: auto;
   box-sizing: border-box;
   padding: 10px;
   background-color: gold;
